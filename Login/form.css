@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(computer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 10%;
+    margin: 10vh;
+    padding: 2rem;
+    text-align: center;
+    backdrop-filter: blur(25px);
+    color: white;
+}
+.header{
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.container .header .input{
+    position: relative;
+    margin: 1rem 0;
+}
+.container .input input{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
+    color: whitesmoke;
+}
+ /* i .fas-user .fas-lock{
+    position: absolute;
+    top: 70%;
+    right: 1rem;
+    transform: translateY(-50%);
+    color: whitesmoke;
+} */
+.container .btn{
+    width: 80%;
+    margin: 30px 10px 20px 10px;
+    padding: .5rem .2rem;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(248, 243, 243);
+    color: black;
+    border: none;
+}
+.container .btn:hover{
+    color: rgb(246, 237, 246);
+    background-color: rgb(9, 9, 9);
+    border: 1px solid whitesmoke;
+}
+.forget p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.forget a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.forget a:hover{
+    text-decoration: underline;
+    color: rgb(26, 24, 153);
+}
+.create{
+    width: 90%;
+    margin: 10px 10px 10px 10px;
+    padding: .5rem .2rem;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(239, 231, 239);
+    color: black;
+    border: none;
+}
+.create:hover{
+    color: rgb(252, 245, 252);
+    background-color: black;
+    border: 1px solid white;
+}
+
